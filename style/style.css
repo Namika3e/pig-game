@@ -169,3 +169,13 @@ main {
 .hidden {
   display: none;
 }
+
+@media screen and (max-width:768px) {
+  main {
+    flex-direction: column;
+    height: fit-content;
+  }
+  .dice {
+    left: 30%;
+  }
+}
